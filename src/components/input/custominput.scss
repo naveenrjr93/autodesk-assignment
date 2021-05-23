@@ -1,0 +1,23 @@
+.customForm {
+  display: flex;
+  max-width: 400px;
+  flex-direction: column;
+  padding-top: 16px;
+}
+.errorMessage {
+  display: flex;
+  flex-wrap: wrap;
+  height: 60px;
+  border-radius: 4px;
+  background-color: #dcdcdc;
+  text-align: flex-start;
+  align-items: center;
+  padding-left: 5px;
+}
+.formError {
+  height: 38px;
+  background: #dcdcdc;
+  border: 1px solid #bbb;
+  border-radius: 4px;
+  padding-left: 5px;
+}

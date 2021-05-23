@@ -1,0 +1,44 @@
+.fullName {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 8px;
+  .firstName {
+    padding-right: 3px;
+  }
+  .lastName {
+    padding-left: 3px;
+  }
+}
+label input {
+  display: block;
+}
+label {
+  padding-bottom: 8px;
+}
+input {
+  height: 30px;
+}
+.formControl {
+  margin-bottom: 16px;
+}
+.formFooter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+.accountexists {
+  font-size: 14px;
+  color: #808080;
+  line-height: 20px;
+}
+.logIn {
+  font-size: 14px;
+  color: #006eaf;
+  text-decoration: none;
+}
+.logIn:hover {
+  font-size: 14px;
+  color: #006eaf;
+  text-decoration: underline;
+}

@@ -1,0 +1,54 @@
+.formFooterText {
+  font-size: 14px;
+  color: #808080;
+  line-height: 20px;
+}
+
+.formFooterLink {
+  font-size: 14px;
+  color: #006eaf;
+  line-height: 20px;
+  text-decoration: none;
+}
+
+.formControl {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.formInput {
+  height: 38px;
+  background: #fff;
+  border: 1px solid #bbb;
+  border-radius: 4px;
+  width: 100%;
+}
+.errorInput {
+  height: 38px;
+  background: #fff;
+  border-radius: 4px;
+  border: 1px solid #ee4444;
+}
+
+.formHeader {
+  display: flex;
+  justify-content: space-between;
+}
+.welcomeWrapper {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 90%;
+  align-items: center;
+}
+.welcomeText {
+  font-size: 22px;
+  line-height: 28px;
+  color: #000;
+}
+.backButton {
+  font-size: 30px;
+  color: #006eaf;
+  background-color: white;
+  border: none;
+}
